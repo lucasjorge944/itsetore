@@ -14,5 +14,23 @@ body{
 }
 
 .stats{
-	margin-top: 100px;
+	margin-top: 80px;
+}
+
+hr{
+    border-style: solid;
+    color: #D5D5D5;
+    border-width: 1px;
+}
+
+.panels{
+	font-size: 55px;
+}
+
+.huge{
+	font-size: 30px;
+}
+
+.pull-left, .pull-right{
+	color: #737373;
 }

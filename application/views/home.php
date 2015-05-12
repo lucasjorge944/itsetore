@@ -17,7 +17,7 @@
 				<input type="text" class="form-control" id="txtUsuario" placeholder="Usuário">
 				<input type="password" class="form-control" id="txtPassword" placeholder="Senha">
 			</div>
-			<button type="button" class="btn btn-primary btn-block">Entrar</button>
+			<a href="dashboard"><button type="button" class="btn btn-primary btn-block">Entrar</button></a>
 		</form>
 	</div>
 </body>
