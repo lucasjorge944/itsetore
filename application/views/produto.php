@@ -31,9 +31,9 @@ header("Content-Type: text/html; charset=UTF-8");
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="usuario"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="produto"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Produto</a></li>
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="cliente"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Produto</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
