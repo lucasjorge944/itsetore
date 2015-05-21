@@ -31,8 +31,7 @@ header("Content-Type: text/html; charset=UTF-8");
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="gestaousuarios
-									"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Produto</a></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</a></li>
 							</ul>
@@ -80,102 +79,42 @@ header("Content-Type: text/html; charset=UTF-8");
 		<div class="container-fluid stats">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">
-					<h1>Dashboard<small> Resumo de Estatísticas</small></h1>
+					<h1>Gestão de Usuários<small> </small></h1>
 					<hr>
 					<ol class="breadcrumb">
 					  <li>
-					  	<span class="page-actual"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard</span>
+					  	<span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> 
+					  	<a href="dashboard">Dashboard</a> / 					  	<span class="page-actual"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Gestão de Usuários</span>
 					  </li>
 					</ol>
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-3">
-					<div class="panel panel-success">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<span class="glyphicon glyphicon-shopping-cart panels"></span>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">26</div>
-									<div>Total de Vendas!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer">
-								<span class="pull-left">Ver Detalhes</span>
-								<span class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
-					<div class="panel panel-danger">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<span class="glyphicon glyphicon-remove panels"></span>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">6</div>
-									<div>Vendas Canceladas!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer panel-dan">
-								<span class="pull-left">Ver Detalhes</span>
-								<span class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-12 col-md-12">
 					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<span class="glyphicon glyphicon-user panels"></span>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">10</div>
-									<div>Total de Clientes!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer panel-dan">
-								<span class="pull-left">Ver Detalhes</span>
-								<span class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<span class="glyphicon glyphicon-tags panels"></span>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">17</div>
-									<div>Total de Produtos!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer panel-dan">
-								<span class="pull-left">Ver Detalhes</span>
-								<span class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
+					  <div class="panel-heading">
+					    <h3 class="panel-title"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Cadastro de Usuário</h3>
+					  </div>
+					  <div class="panel-body">
+					  	<form>
+					  		<div class="form-group">
+					  			<input type="text" class="form-control" id="txtNome" placeholder="Nome Completo">
+					  		</div>
+					  		<div class="form-group">
+					  			<input type="text" class="form-control" id="txtUsuario" placeholder="Usuário">
+					  		</div>
+					  		<div class="form-group">
+					  			<input type="password" class="form-control" id="txtSenha" placeholder="Digite sua senha">
+					  			<input type="password" class="form-control" id="txtSenha2" placeholder="Digite novamento sua senha">
+					  		</div>
+					  		<div class="form-group">
+					  			<input type="email" class="form-control" id="txtEmail" placeholder="Digite o seu email">
+					  		</div>
+					  		<button type="button" class="btn btn-success btn-block">Salvar</button>
+					  	</form>
+					  </div>
 					</div>
 				</div>
 			</div>
@@ -183,102 +122,81 @@ header("Content-Type: text/html; charset=UTF-8");
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">
-					<div class="panel panel-default">
+					<div class="panel panel-primary panel-usuarios">
 						<div class="panel-heading">
-							<h3 class="panel-title"><span class="glyphicon glyphicon-stats"></span> Vendas x Mês</h3>
-						</div>
-						<div class="panel-body">
-							<div id="myfirstchart" style="height: 250px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-4">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title"><span class="glyphicon glyphicon-shopping-cart"></span> Vendas x Vendedor <span class="glyphicon glyphicon-user"></h3>
-						</div>
-						<div class="panel-body">
-							<div id="mysecondchart" style="height: 350px;"></div>
-							<div class="text-right">
-								<a href="#">Ver todas atividades <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-8">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title"><span class="glyphicon glyphicon-usd"></span> Painel de Transações</h3>
+							<h3 class="panel-title"><span class="glyphicon glyphicon-list-alt"></span> Usuários</h3>
 						</div>
 						<div class="panel-body">
 							<div class="table-responsive">
 								<table class="table table-bordered table-hover table-striped">
 									<thead>
 										<tr>
-											<th>NSU #</th>
-											<th>Data</th>
-											<th>Hora</th>
-											<th>Valor</th>
+											<th>Nome</th>
+											<th>Usuário</th>
+											<th>Email</th>
+											<th>Tipo</th>
+											<th></th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>3326</td>
-											<td>10/21/2013</td>
-											<td>3:29 PM</td>
-											<td>$321.33</td>
+											<td>Marcus Flavio</td>
+											<td>marcus.flavio</td>
+											<td>marcus@gmail.com</td>
+											<td>Administrador</td>
+											<td>
+												<button type="button" class="btn btn-info" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+												</button>
+												<button type="button" class="btn btn-danger" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+												</button>
+											</td>
 										</tr>
 										<tr>
-											<td>3325</td>
-											<td>10/21/2013</td>
-											<td>3:20 PM</td>
-											<td>$234.34</td>
+											<td>Vendedor 1</td>
+											<td>vendedor1</td>
+											<td>vendedor1@gmail.com</td>
+											<td>Vendedor</td>
+											<td>
+												<button type="button" class="btn btn-info" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+												</button>
+												<button type="button" class="btn btn-danger" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+												</button>
+											</td>
 										</tr>
 										<tr>
-											<td>3324</td>
-											<td>10/21/2013</td>
-											<td>3:03 PM</td>
-											<td>$724.17</td>
+											<td>Vendedor 2</td>
+											<td>vendedor2</td>
+											<td>vendedor2@gmail.com</td>
+											<td>Vendedor</td>
+											<td>
+												<button type="button" class="btn btn-info" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+												</button>
+												<button type="button" class="btn btn-danger" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+												</button>
+											</td>
 										</tr>
 										<tr>
-											<td>3323</td>
-											<td>10/21/2013</td>
-											<td>3:00 PM</td>
-											<td>$23.71</td>
-										</tr>
-										<tr>
-											<td>3322</td>
-											<td>10/21/2013</td>
-											<td>2:49 PM</td>
-											<td>$8345.23</td>
-										</tr>
-										<tr>
-											<td>3321</td>
-											<td>10/21/2013</td>
-											<td>2:23 PM</td>
-											<td>$245.12</td>
-										</tr>
-										<tr>
-											<td>3320</td>
-											<td>10/21/2013</td>
-											<td>2:15 PM</td>
-											<td>$5663.54</td>
-										</tr>
-										<tr>
-											<td>3319</td>
-											<td>10/21/2013</td>
-											<td>2:13 PM</td>
-											<td>$943.45</td>
+											<td>Vendedor 3</td>
+											<td>vendedor3</td>
+											<td>vendedor3@gmail.com</td>
+											<td>Vendedor</td>
+											<td>
+												<button type="button" class="btn btn-info" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+												</button>
+												<button type="button" class="btn btn-danger" aria-label="Left Align">
+  												<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>
-							</div>
-							<div class="text-right">
-								<a href="#">Ver todas transações <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 							</div>
 						</div>
 					</div>
