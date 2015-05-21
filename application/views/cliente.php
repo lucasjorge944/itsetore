@@ -31,16 +31,9 @@ header("Content-Type: text/html; charset=UTF-8");
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-<<<<<<< HEAD
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="gestaousuarios
-									"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Produto</a></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</a></li>
-=======
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="usuario"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuário</a></li>
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="produto"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Produto</a></li>
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="cliente"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</a></li>
->>>>>>> 0e47c9ca326a2dbb375ec47dcbf01dd291fb609a
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -90,7 +83,7 @@ header("Content-Type: text/html; charset=UTF-8");
 					<hr>
 					<ol class="breadcrumb">
 					  <li>
-					  	<span class="page-actual"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard</span>
+					  	<span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard
 					  </li>
 					</ol>
 				</div>
